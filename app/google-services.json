@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "176727053569",
+    "firebase_url": "https://shusto-thakun.firebaseio.com",
+    "project_id": "shusto-thakun",
+    "storage_bucket": "shusto-thakun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176727053569:android:eaeb17f1248ca4f8c97700",
+        "android_client_info": {
+          "package_name": "com.example.shustothakun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176727053569-sa2r2ccmj9io7k5glqk078uv7f453i00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Q-ig-r0AELI7s3BAW9LSbmoRod72Veo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176727053569-sa2r2ccmj9io7k5glqk078uv7f453i00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

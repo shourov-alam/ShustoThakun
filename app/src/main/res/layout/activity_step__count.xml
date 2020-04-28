@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    tools:context=".Activity.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEPS"
+        android:textStyle="bold"
+        android:textColor="#FAF7F7"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        />
+
+
+
+    <View
+        android:layout_width="400dp"
+
+        android:layout_height="2dp"
+
+        android:background="#000000"
+        android:layout_gravity="center"
+        ></View>
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+         />
+    <View
+        android:layout_width="400dp"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"></View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISTANCE"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FFFEFE"
+
+        />
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="2dp"
+        android:background="#000000"
+
+        android:layout_gravity="center"
+        ></View>
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/kilo"
+
+        />
+    <View
+        android:layout_width="400dp"
+        android:layout_height="2dp"
+        android:background="#000000"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"></View>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="রিসেট করুন"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="50dp"
+
+
+
+        android:id="@+id/btn"
+
+        />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="সেভ করুন"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        android:id="@+id/btn1"
+        android:background="#fff"
+        android:textColor="@color/colorPrimary"
+
+        />
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="1.5dp"
+            android:background="#000000"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"></View>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#fff"
+            android:padding="10dp"
+
+
+
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

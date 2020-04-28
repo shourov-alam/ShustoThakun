@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fefefe"
+    android:orientation="vertical"
+    android:gravity="center"
+
+
+    tools:context=".Activity.Vitamin_List">
+
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+
+        android:text="ভিটামিন এ"
+
+        android:textStyle="bold"
+
+        android:id="@+id/vitamin_a"
+
+        />
+
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+
+        android:text="ভিটামিন বি"
+        android:textStyle="bold"
+
+        android:id="@+id/vitamin_b"
+
+        />
+
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+
+        android:text="ভিটামিন সি"
+        android:textStyle="bold"
+
+        android:id="@+id/vitamin_c"
+
+        />
+
+
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+
+        android:text="ভিটামিন ডি"
+        android:textStyle="bold"
+
+        android:id="@+id/vitamin_d"
+
+        />
+
+    <Button
+        android:layout_marginTop="2dp"
+        android:layout_width="290dp"
+        android:layout_height="70dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+
+        android:text="ভিটামিন ই"
+        android:textStyle="bold"
+
+        android:id="@+id/vitamin_e"
+
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

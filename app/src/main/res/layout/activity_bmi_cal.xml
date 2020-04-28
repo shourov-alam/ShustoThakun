@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+
+    android:gravity="center"
+    tools:context=".Activity.Bmi_cal">
+
+
+    <EditText
+        android:id="@+id/kg"
+        android:textAlignment="center"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:background="#fff"
+
+        android:hint="ওজন দিন (কেজি)"
+        android:inputType="numberDecimal"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#0E0D0D" />
+
+    <EditText
+        android:id="@+id/meter"
+        android:layout_marginTop="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="5"
+        android:textAlignment="center"
+        android:background="#fff"
+        android:hint="উচ্চতা দিন(মিটার)"
+        android:inputType="numberDecimal"
+        android:textColor="#0E0D0D"
+        android:textColorHint="#090808" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+
+
+
+        android:onClick="onCalculateClick"
+        android:text="মাপুন"
+        android:textColor="@color/colorPrimary"
+        android:textSize="21sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bmiValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text=""
+
+
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
